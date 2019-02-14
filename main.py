@@ -40,6 +40,12 @@ parser.add_argument('--evaluation-interval', type=int, default=100000, metavar='
 parser.add_argument('--evaluation-episodes', type=int, default=10, metavar='N', help='Number of evaluation episodes to average over')
 parser.add_argument('--evaluation-size', type=int, default=500, metavar='N', help='Number of transitions to use for validating Q')
 parser.add_argument('--render', action='store_true', help='Display screen (testing only)')
+parser.add_argument('--freeze-layers', type=int, default=0, metavar='N', help='Freeze all layers except the last N')
+parser.add_argument('--saved-model-path', type=str, metavar='PATH', help='Where to save the model')
+parser.add_argument('--experiment', type=str, default='testing', metavar='N', help="The name of the experiment to save data under")
+parser.add_argument('--plots-path', type=str, default='results', metavar='PATH', help='Where to save the plot results')
+parser.add_argument('--data-save-path', type=str, default='results', metavar='PATH', help='Where to save the data objects')
+parser.add_argument('--reinitialize-layers', type=int, default=0, metavar='N', help="The number of layers to reinitialize before training")
 
 
 # Setup
