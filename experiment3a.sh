@@ -47,17 +47,17 @@ riverraid_model_path="./results/scratch_riverraid_10M/scratch_riverriad_10M_mode
 
 t_steps=3000000
 
-# scratch pong 2M
-exp=${exp_list[0]}
-echo "launching experiment" ${exp}
-mkdir -p ./results/${exp}
-nice -n 5 python ./main.py --game ${game_pong} --T-max 2000000 --experiment ${exp} --saved-model-path ./results/${exp} --plots-path ./results/${exp} --data-save-path ./results/${exp}
+# # scratch pong 2M
+# exp=${exp_list[0]}
+# echo "launching experiment" ${exp}
+# mkdir -p ./results/${exp}
+# nice -n 5 python ./main.py --game ${game_pong} --T-max 2000000 --experiment ${exp} --saved-model-path ./results/${exp} --plots-path ./results/${exp} --data-save-path ./results/${exp}
 
-# scratch pong 5M
-exp=${exp_list[1]}
-echo "launching experiment" ${exp}
-mkdir -p ./results/${exp}
-nice -n 5 python ./main.py --game ${game_pong} --T-max 5000000 --experiment ${exp} --saved-model-path ./results/${exp} --plots-path ./results/${exp} --data-save-path ./results/${exp}
+# # scratch pong 5M
+# exp=${exp_list[1]}
+# echo "launching experiment" ${exp}
+# mkdir -p ./results/${exp}
+# nice -n 5 python ./main.py --game ${game_pong} --T-max 5000000 --experiment ${exp} --saved-model-path ./results/${exp} --plots-path ./results/${exp} --data-save-path ./results/${exp}
 
 # scratch berzerk 10M
 exp=${exp_list[2]}
