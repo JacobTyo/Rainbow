@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fd7f42b-fd15-4a3c-9e3c-74f732deef33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gen_figures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gen_figures_stacked.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment3a.sh" beforeDir="false" afterPath="$PROJECT_DIR$/experiment3a.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiment3b.sh" beforeDir="false" afterPath="$PROJECT_DIR$/experiment3b.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/berzerk_from_riverraid_1NF_3M/berzerk_from_riverraid_1NF_3M_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/berzerk_from_riverraid_1NF_3M/berzerk_from_riverraid_1NF_3M_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/riverraid_from_berzerk_3R_3M/riverraid_from_berzerk_3R_3M_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/riverraid_from_berzerk_3R_3M/riverraid_from_berzerk_3R_3M_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/berzerk_from_krull_3NF_3M_2/berzerk_from_krull_3NF_3M_2_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/berzerk_from_krull_3NF_3M_2/berzerk_from_krull_3NF_3M_2_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/pretrained_riverraid_3R_3M_2/pretrained_riverraid_3R_3M_2_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/pretrained_riverraid_3R_3M_2/pretrained_riverraid_3R_3M_2_data.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +70,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="448">
-                  <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+                <state relative-caret-position="915">
+                  <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -87,7 +82,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gen_figures_stacked.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="134">
+                <state relative-caret-position="1065">
                   <caret line="78" column="50" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
                   <folding>
                     <element signature="e#0#9#0" expanded="true" />
@@ -99,7 +94,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gen_figures.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="434">
+                <state relative-caret-position="2655">
                   <caret line="184" column="29" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="29" />
                 </state>
               </provider>
@@ -347,6 +342,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Apps/anaconda3/envs/rainbow/lib/python3.7/site-packages/plotly/basedatatypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="1199" column="35" lean-forward="true" selection-start-line="1199" selection-start-column="35" selection-end-line="1199" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/agent.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2745">
@@ -377,6 +379,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_figures_stacked.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="78" column="50" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen_figures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="184" column="29" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Apps/anaconda3/envs/rainbow/lib/python3.7/site-packages/torch/nn/modules/module.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -390,50 +429,6 @@
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Apps/anaconda3/envs/rainbow/lib/python3.7/site-packages/plotly/basedatatypes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="1199" column="35" lean-forward="true" selection-start-line="1199" selection-start-column="35" selection-end-line="1199" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen_figures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="184" column="29" selection-start-line="184" selection-start-column="29" selection-end-line="184" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen_figures_stacked.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="78" column="50" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
