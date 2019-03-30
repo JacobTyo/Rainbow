@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fd7f42b-fd15-4a3c-9e3c-74f732deef33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/results/berzerk_from_krull_3NF_3M_2/berzerk_from_krull_3NF_3M_2_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/berzerk_from_krull_3NF_3M_2/berzerk_from_krull_3NF_3M_2_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/pretrained_riverraid_3R_3M_2/pretrained_riverraid_3R_3M_2_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/pretrained_riverraid_3R_3M_2/pretrained_riverraid_3R_3M_2_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gen_baselines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradcam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/misc_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen_figures_stacked.py" beforeDir="false" afterPath="$PROJECT_DIR$/gen_figures_stacked.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/berzerk_from_riverraid_3NF_3M_2/berzerk_from_riverraid_3NF_3M_2_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/berzerk_from_riverraid_3NF_3M_2/berzerk_from_riverraid_3NF_3M_2_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/riverraid_from_berzerk_3R_3M_2/riverraid_from_berzerk_3R_3M_2_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/results/riverraid_from_berzerk_3R_3M_2/riverraid_from_berzerk_3R_3M_2_data.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +24,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/agent.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2745">
-                  <caret line="188" column="9" selection-start-line="188" selection-start-column="9" selection-end-line="188" selection-end-column="9" />
+                <state relative-caret-position="1230">
+                  <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
                   <folding>
                     <element signature="e#0#9#0" expanded="true" />
                   </folding>
@@ -27,10 +33,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/memory.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1965">
+                <state relative-caret-position="613">
                   <caret line="133" selection-start-line="133" selection-end-line="133" />
                   <folding>
                     <element signature="e#0#34#0" expanded="true" />
@@ -39,14 +45,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-                  <folding>
-                    <element signature="e#0#9#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="90">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
                 </state>
               </provider>
             </entry>
@@ -67,11 +70,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="915">
-                  <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+                <state relative-caret-position="582">
+                  <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -79,11 +82,23 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/gen_figures_stacked.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1065">
-                  <caret line="78" column="50" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
+                <state relative-caret-position="611">
+                  <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/gen_baselines.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2460">
+                  <caret line="172" column="41" selection-start-line="172" selection-start-column="41" selection-end-line="172" selection-end-column="41" />
                   <folding>
                     <element signature="e#0#9#0" expanded="true" />
                   </folding>
@@ -101,19 +116,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Apps/anaconda3/envs/rainbow/lib/python3.7/site-packages/torch/nn/modules/module.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="810">
-                  <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/model.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+                <state relative-caret-position="885">
+                  <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
                   <folding>
                     <element signature="e#0#11#0" expanded="true" />
                   </folding>
@@ -146,10 +152,15 @@
       <find>sample</find>
       <find>act_e_greedy</find>
       <find>1NF_3M</find>
+      <find>grad</find>
+      <find>1</find>
+      <find>time_scale</find>
+      <find>Riverraid</find>
     </findStrings>
     <replaceStrings>
       <replace>target_net</replace>
       <replace>'+exp+'</replace>
+      <replace>3</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -160,13 +171,16 @@
       <list>
         <option value="$PROJECT_DIR$/experiment2a.sh" />
         <option value="$PROJECT_DIR$/experiment2b.sh" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/experiment3a.sh" />
         <option value="$PROJECT_DIR$/experiment3b.sh" />
-        <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/agent.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/gen_figures.py" />
+        <option value="$PROJECT_DIR$/gen_baselines.py" />
+        <option value="$PROJECT_DIR$/gradcam.py" />
+        <option value="$PROJECT_DIR$/misc_functions.py" />
+        <option value="$PROJECT_DIR$/model.py" />
+        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/gen_figures_stacked.py" />
       </list>
     </option>
@@ -181,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,11 +207,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gen_figures.py" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -217,8 +232,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="gen_figures_stacked" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="gen_baselines" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Rainbow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/Apps/anaconda3/envs/rainbow/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gen_baselines.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gen_figures_stacked" type="PythonConfigurationType" factoryName="Python">
       <module name="Rainbow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,6 +275,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Rainbow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/Apps/anaconda3/envs/rainbow/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="--game berzerk --experiment testing --saved-model-path ./results/testing --plots-path ./results/testing --data-save-path ./results/testing" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.gen_figures_stacked" />
+      <item itemvalue="Python.gen_baselines" />
+      <item itemvalue="Python.main" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -255,6 +317,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1173" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10964681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -276,13 +339,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1147313008/torch/_C/device.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1147313008/torch/_C/device.py" />
     <entry file="file://$USER_HOME$/Apps/anaconda3/envs/rainbow/lib/python3.7/site-packages/atari_py/ale_python_interface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -342,30 +399,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Apps/anaconda3/envs/rainbow/lib/python3.7/site-packages/plotly/basedatatypes.py">
+    <entry file="file://$USER_HOME$/Apps/anaconda3/envs/rainbow/lib/python3.7/site-packages/plotly/basedatatypes.py" />
+    <entry file="file://$USER_HOME$/Apps/anaconda3/envs/rainbow/lib/python3.7/site-packages/torch/nn/modules/module.py" />
+    <entry file="file://$PROJECT_DIR$/misc_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="1199" column="35" lean-forward="true" selection-start-line="1199" selection-start-column="35" selection-end-line="1199" selection-end-column="35" />
+        <state relative-caret-position="553">
+          <caret line="218" column="47" selection-start-line="218" selection-start-column="47" selection-end-line="218" selection-end-column="47" />
+          <folding>
+            <element signature="e#91#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradcam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#91#112#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2745">
-          <caret line="188" column="9" selection-start-line="188" selection-start-column="9" selection-end-line="188" selection-end-column="9" />
+        <state relative-caret-position="1230">
+          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/memory.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1965">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -379,30 +448,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/memory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="613">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+        <state relative-caret-position="582">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen_figures_stacked.py">
+    <entry file="file://$PROJECT_DIR$/gen_baselines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="78" column="50" selection-start-line="78" selection-start-column="50" selection-end-line="78" selection-end-column="50" />
+        <state relative-caret-position="2460">
+          <caret line="172" column="41" selection-start-line="172" selection-start-column="41" selection-end-line="172" selection-end-column="41" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -416,19 +485,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Apps/anaconda3/envs/rainbow/lib/python3.7/site-packages/torch/nn/modules/module.py">
+    <entry file="file://$PROJECT_DIR$/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        <state relative-caret-position="885">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
+    <entry file="file://$PROJECT_DIR$/gen_figures_stacked.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="611">
+          <caret line="106" lean-forward="true" selection-start-line="106" selection-end-line="106" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
